@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    margin: 0;
+    width: 100%;
+}
+
+.nav-bar {
+    background-color: #fcfcbf;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    display: block;
+    margin-top: 0px;
+    z-index: 999.9;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+
+}
+
+.TFC-logo {
+    aspect-ratio: 2/2;
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+    margin-top: 6px;
+    transition: transform 1.5 ease;
+}
+
+.TFC-logo:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: behavior smooth;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(PressGothicPro.ttf);
+}
+
+.navigation a {
+    color: #50C878;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: myfont;
+    padding-left: 30px;
+    transition: 0.5s;
+}
+
+.navigation a:hover {
+    color: #B18B85;
+
+    text-decoration: underline;
+}
+
+.main {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(gg\ girl.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: myfont2;
+    src: url(SpaceMono-Regular.ttf);
+}
+
+.h2 {
+    padding-left: 4px;
+    display: inline block;
+    font-family: myfont2;
+    font-size: 1.4em;
+    color: #e9e100 !important;
+    font-weight: 500;
+    background-color: #175756;
+    width: 255px;
+}
+
+@font-face {
+    font-family: myfont3;
+    src: url(RainOutline-qWxq.otf);
+}
+
+.CE {
+    font-family: myfont3;
+    color: #B18B85;
+    font-size: 3em;
+    padding-top: 0;
+    font-weight: 600;
+}
+
+.h3 {
+    font-family: myfont2;
+    font-size: 1.7em;
+    color: #175756 !important;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.main-button {
+    color: #175756;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em;
+    letter-spacing: 2px;
+    font-family: myfont2;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: #FCFCBF;
+    transition: transform 0.7s ease;
+}
+
+.main-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: behavior smooth;
+    background-color: #e9e999;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.social-links a {
+    color: #175756;
+    font-size: 1.7em;
+    padding-right: 30px;
+    margin-left: 5px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #175756;
+    font-size: 2.8em;
+    font-weight: 800;
+    padding: 20px;
+    font-family: myfont;
+    letter-spacing: 3px;
+    background-color: #FCFCBF;
+    text-decoration: underline;
+}
+
+.content {
+    background-color: #FCFCBF;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*let the boxs get down instead of get smaller in minmizing page or add more boxxs */
+}
+
+.cards {
+    background-color: #FCFCBF;
+    width: 22.25em;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 15%);
+    border-radius: 15px;
+    padding: 25px;
+    /* if you set one value all directions get same  value*/
+    margin: 15px;
+    transition: 0.2s ease;
+}
+
+.cards:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 6em;
+    color: #175756;
+    text-align: center;
+}
+
+.hx {
+    font-size: 1.8em;
+    color: #FCFCBF;
+    text-align: center;
+    font-family: myfont2;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: #175756;
+}
+
+@font-face {
+    font-family: caviar;
+    src: url(Rubik-Regular.ttf);
+
+}
+
+.pp {
+    text-align: center;
+    color: #000000;
+    font-size: 1em;
+    font-family: caviar;
+
+}
+
+.projects {
+    background-color: #FCFCBF;
+    margin-bottom: 0;
+
+}
+
+.projects .content {
+    margin-top: 30px;
+}
+
+.projects-card {
+    background-color: #e9e999;
+    border: #175756 5px solid;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    /* the part that goes out the box be hideen */
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.4s ease;
+
+}
+
+.projects-card:hover {
+    transform: scale(1.1);
+    transition: behavior(smooth);
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.pro-img img {
+    width: 100%;
+    border: 2px solid #175756;
+}
+
+.projects-info {
+    padding: 1em;
+
+
+}
+
+.project-category {
+    font-size: 1.5em;
+    color: #000000;
+    font-family: myfont2;
+    margin-left: 5px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details {
+    font-family: myfont2;
+    color: #fcfcbf;
+    text-decoration: none !important;
+    transition: 0.7s ease-out;
+    margin-right: 8px;
+    background-color: #175756;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.more-details:hover {
+    color: #B18B85;
+
+}
+
+span {
+    color: #175756;
+    font-size: 0.7em;
+    max-width: 220px;
+    margin-left: 5px;
+    font-family: myfont2;
+}
+
+.pro-img1 img {
+    height: 358px;
+    border: 2px solid #175756;
+}
+
+.pro-img2 img {
+    height: 358px;
+    border: 2px solid #175756;
+    align-items: center;
+}
+
+.VA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dang {
+    background-color: #fcfcbf;
+    color: #175756;
+    font-family: myfont;
+    font-size: 1.2em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 62px;
+    width: 194.95px;
+    margin-top: 15px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    letter-spacing: 3px;
+    text-decoration: none;
+    border: #175756 6px solid;
+}
+
+.dang:hover {
+    background-color: #175756;
+    border: #fcfcbf;
+    color: #fcfcbf;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: behavior smooth;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+
+}
+
+.contact .icon {
+    font-size: 4.5em !important;
+
+}
+
+
+
+.contact .info p {
+    font-size: 1.2em;
+}
+
+.pp {
+    text-align: center;
+    padding-top: 5px;
+}
+
+footer {
+    display: flex;
+    background: #B18B85;
+    justify-content: space-between;
+    padding: 2em;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.iconx a {
+    color: #333;
+    font-size: 3em;
+    padding-right: 30px;
+    margin-left: 5px;
+}
+
+.copyright {
+    color: #333;
+    font-size: 2em;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: caviar;
+}
+
+.image007 {
+    opacity: 0.75;
+    box-shadow: 0 8px 6px -6px black;
+    border: 3px solid #333;
+    border-radius: 8px;
+    height: auto;
+
+    display: block;
+}
+
+.cards4 {
+    background-color: #FCFCBF;
+    width: 22.25em;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 15%);
+    border-radius: 15px;
+    padding: 25px;
+    /* if you set one value all directions get same  value*/
+    margin: 15px;
+    transition: 0.2s ease;
+}
+
+.cards4:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+@media (max-width: 1023px) {
+    header {
+        padding: 12px 20px;
+
+    }
+
+    .navigation {
+        padding-left: 10px;
+
+    }
+
+    .title {
+        font-size: 1.8em;
+
+    }
+
+    .section {
+        padding: 88px 20px;
+
+    }
+
+    .main-content h2 {
+        font-size: 1em !important;
+    }
+
+    .main-content h3 {
+        font-size: 1.6em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 64px) {
+    body {
+        font: size 12px;
+
+    }
+
+    .main-content h2 {
+        font-size: 0.8em;
+
+    }
+
+    .main-content h3 {
+        font-size: 1.4em;
+
+    }
+}
+
+@media (max-width:300px) {
+    body {
+        font-size: 18px;
+    }
+
+}

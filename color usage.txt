@@ -1,0 +1,28 @@
+Color Usage
+Emerald (#50C878)
+
+Primary Buttons: Use Emerald for call-to-action buttons and important interactive elements.
+Headings and Subheadings: Apply Emerald to headings and subheadings to make them stand out.
+Links: Use Emerald for text links and navigation items in the default state.
+Accent Details: Utilize Emerald for decorative elements like icons or small accents.
+Gold (#FFD700)
+
+Hover Effects: Apply Gold to navigation links and buttons when hovered to provide a visual cue.
+Borders and Dividers: Use Gold for borders, dividers, or highlights to add a touch of elegance.
+Secondary Buttons: Utilize Gold for secondary buttons or less critical actions to create contrast.
+Highlights: Apply Gold for highlighting important text or elements.
+Midnight Blue (#191970)
+
+Background: Use Midnight Blue for large background areas, such as the header or footer, to create a rich, dark contrast.
+
+Text: Apply Midnight Blue for text or content areas where a dark color is preferable, ensuring readability and contrast.
+
+Navigation Bar: Use Midnight Blue as the background color for your navigation bar for a sleek and professional look.
+
+Section Backgrounds: Apply Midnight Blue to section backgrounds to separate different content areas and enhance visual depth.
+Example Layout
+Header: Background in Midnight Blue, with navigation links in Emerald and hover effects in Gold.
+Buttons: Primary buttons in Emerald, secondary buttons in Gold.
+Text: Use Midnight Blue for main text and Emerald for headings or important highlights.
+Links: Default link color in Emerald, changing to Gold on hover.
+By following this color scheme, you’ll create a visually appealing and cohesive design that emphasizes key elements while maintaining a sophisticated and elegant look.
